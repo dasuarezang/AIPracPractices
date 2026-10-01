@@ -17,7 +17,7 @@ The notebooks are written in Catalan.
 
 Each folder has my solved notebook (`.ipynb`), and some also include an HTML export.
 
-The `(empty)/` folder holds the original material for sessions 1–5: the datasets (`.csv`), the explanatory images, and PDF/HTML versions of the notebooks.
+The `material/` folder holds the original material for sessions 1–5: the datasets (`.csv`), the explanatory images, and PDF/HTML versions of the notebooks.
 
 ## Tech stack
 
@@ -33,4 +33,4 @@ pip install jupyter pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook
 ```
 
-Sessions 1–5 read their CSV files from the `(empty)/pN/...` folders, so you may need to copy the dataset next to the notebook or update its path.
+Sessions 1–5 read their CSV files from the `material/pN/...` folders, so you may need to copy the dataset next to the notebook or update its path.
